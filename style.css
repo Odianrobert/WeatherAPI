@@ -1,15 +1,28 @@
 .jumbotron {
     background-image: url("https://images.alphacoders.com/949/949978.jpg");
     background-size: cover;
+    width: 100%;
 }
 
 .box {
-    margin:0 auto;
-    width:200px;
+    margin: 0 auto;
+    width: 200px;
 }
 .btn {
-    margin:0 auto;
-    width:100px;
+    margin: 0 auto;
+    width: 100px;
     border-color: white;
     color: white;
+}
+
+.row-1 {
+    text-align: center;
+}
+
+.container-2 {
+    margin: 0 auto;
+}
+
+.col-4 {
+    text-align: center;
 }
