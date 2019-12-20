@@ -18,19 +18,29 @@
 
 .row-1 {
     text-align: center;
+    width: 100%;
 }
 
 .container-2 {
     margin: 0 auto;
+    width: 100%;
 }
 
 .col-4 {
     text-align: center;
+    width: 100%;
 }
 
 .card {
     margin: 0 auto;
     width: 200px;
     height: 200px;
+}
+.body {
+    width: 100%;
+}
+#icon {
+    height: 75px;
+    width: 75px;
 }
     

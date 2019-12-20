@@ -93,62 +93,62 @@ document.querySelector('#button').addEventListener('click', function(){
         var dt = fiveDay1['dt']; //var s = new Date(1504095567183).toLocaleDateString("en-US")
         //var timestamp = moment.unix(1293683278);
         //var tempValue = Math.round((data['main']['temp'] -273.15)*1.8)+32
-        var temp = fiveDay1['main']['temp']
+        var temp = Math.round((fiveDay1['main']['temp'] -273.15)*1.8)+32
         var humidity = fiveDay1['main']['humidity'];
         var icon = fiveDay1['weather'][icon]
 
         //console.log(dt, temp, humidity)
         document.querySelector('#date1').textContent = dt;
-        document.querySelector('#temp1').textContent = temp;
-        document.querySelector('#humidity1').textContent = humidity;
+        document.querySelector('#temp1').textContent = temp + ' Degrees Farenheit';
+        document.querySelector('#humidity1').textContent = humidity + '% Humidity';
         document.getElementById('icon1').src = icon;
         
         var fiveDay2 = data.list[12]
         var dt = fiveDay2['dt']; 
-        var temp = fiveDay2['main']['temp']
+        var temp = Math.round((fiveDay2['main']['temp'] -273.15)*1.8)+32
         var humidity = fiveDay2['main']['humidity'];
         var icon = fiveDay2['weather'][icon]
 
         
         document.querySelector('#date2').textContent = dt;
-        document.querySelector('#temp2').textContent = temp;
-        document.querySelector('#humidity2').textContent = humidity;
+        document.querySelector('#temp2').textContent = temp + ' Degrees Farenheit';
+        document.querySelector('#humidity2').textContent = humidity + '% Humidity';
         document.getElementById('icon2').src = icon;
         
         var fiveDay3 = data.list[20]
         var dt = fiveDay3['dt']; 
-        var temp = fiveDay3['main']['temp']
+        var temp = Math.round((fiveDay3['main']['temp'] -273.15)*1.8)+32
         var humidity = fiveDay3['main']['humidity'];
         var icon = fiveDay3['weather'][icon]
 
       
         document.querySelector('#date3').textContent = dt;
-        document.querySelector('#temp3').textContent = temp;
-        document.querySelector('#humidity3').textContent = humidity;
+        document.querySelector('#temp3').textContent = temp + ' Degrees Farenheit';
+        document.querySelector('#humidity3').textContent = humidity + '% Humidity';
         document.getElementById('icon3').src = icon;
 
         var fiveDay4 = data.list[28]
         var dt = fiveDay4['dt']; 
-        var temp = fiveDay4['main']['temp']
+        var temp = Math.round((fiveDay4['main']['temp'] -273.15)*1.8)+32
         var humidity = fiveDay4['main']['humidity'];
         var icon = fiveDay4['weather'][icon]
 
         
         document.querySelector('#date4').textContent = dt;
-        document.querySelector('#temp4').textContent = temp;
-        document.querySelector('#humidity4').textContent = humidity;
+        document.querySelector('#temp4').textContent = temp + ' Degrees Farenheit';
+        document.querySelector('#humidity4').textContent = humidity + '% Humidity';
         document.getElementById('icon4').src = icon;
 
         var fiveDay5 = data.list[36]
         var dt = fiveDay5['dt']; 
-        var temp = fiveDay5['main']['temp']
+        var temp = Math.round((fiveDay5['main']['temp'] -273.15)*1.8)+32
         var humidity = fiveDay5['main']['humidity'];
         var icon = fiveDay5['weather'][icon]
 
         //console.log(dt, temp, humidity)
         document.querySelector('#date5').textContent = dt;
-        document.querySelector('#temp5').textContent = temp;
-        document.querySelector('#humidity5').textContent = humidity;
+        document.querySelector('#temp5').textContent = temp + ' Degrees Farenheit';
+        document.querySelector('#humidity5').textContent = humidity + '% Humidity';
         document.getElementById('icon5').src = icon;
 
         
