@@ -27,3 +27,10 @@
 .col-4 {
     text-align: center;
 }
+
+.card {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+    
