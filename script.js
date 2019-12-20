@@ -75,7 +75,7 @@ document.querySelector('#button').addEventListener('click', function(){
          
       ).then( dataJson => {
        var uvValue = dataJson['value'];
-        document.querySelector('#uvIndex').textContent = uvValue;
+        document.querySelector('#uvIndex').textContent = 'UV Index: ' + uvValue;
       
       }
       )
