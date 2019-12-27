@@ -1,3 +1,18 @@
+body {
+    height: 100%;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box;
+}
+h5 {
+    color: white;
+}
+
+li {
+    color: white;
+}
+
 .jumbotron {
     background-image: url("https://images.alphacoders.com/949/949978.jpg");
     background-size: cover;
@@ -21,10 +36,7 @@
     width: 100%;
 }
 
-.container-2 {
-    margin: 0 auto;
-    width: 100%;
-}
+
 
 .col-4 {
     text-align: center;
@@ -34,13 +46,41 @@
 .card {
     margin: 0 auto;
     width: 200px;
-    height: 200px;
+    height: 250px;
 }
-.body {
-    width: 100%;
-}
+
 #icon {
-    height: 75px;
-    width: 75px;
+    height: 50px;
+    width: 50px;
 }
+
+
+.now {
+    background-color: black;
+    color: white;
+}
+
+.now1 {
+    background-color: black;
+    color: white;
+}
+
+.card-img-top {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    
+}
+
+.card-body {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
     
